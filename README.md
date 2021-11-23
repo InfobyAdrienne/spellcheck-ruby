@@ -11,4 +11,4 @@ Example output: "These words are ~spnelt~ ~correclty~"
 
 The input should be a string. If it's not there will be an error message raised "Input needs to be a valid sentence"
 
-Misplaced capital letters etc. are fine, as long as the word is spelt correctly. 
+Misplaced capital letters are fine, as long as the word is spelt correctly. 

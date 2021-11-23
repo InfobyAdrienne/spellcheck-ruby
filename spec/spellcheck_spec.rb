@@ -17,4 +17,8 @@ describe 'highlight the error in a spelt word' do
   expect(sentence_to_check("these words are spnelt")).to eq "these words are ~spnelt~"
  end 
 
+ # Testing that the input should be a string
+ it 'sentence input should be a string' do 
+  expect(sentence_to_check(["this", "is", "an", "array"])).to eq "Input needs to be a valid sentence"
+ end 
 end 
